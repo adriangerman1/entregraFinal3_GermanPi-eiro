@@ -1,0 +1,360 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: aqua;
+  height: 150px;
+  width: 100%;
+}
+
+.active {
+  color: black;
+}
+
+.titulo {
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2600ff;
+}
+
+.titulo2 {
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  text-transform: lowercase;
+}
+
+.listaMenus {
+  list-style: none;
+  display: inline-block;
+  padding-top: 50px;
+  padding-left: 30vh;
+}
+
+.listaMenus a {
+  text-decoration: none;
+  color: #000;
+  font-size: 28px;
+  text-transform: capitalize;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:hover {
+  color: blue;
+}
+
+.subTitulos {
+  color: #f7f7f7;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.secionA {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../img/chile-g48e0dd969_1920.jpg ");
+  background-size: cover;
+  background-position: center;
+}
+
+.subPre {
+  color: rgba(255, 255, 255, 0.945);
+  font-size: 18px;
+  font-family: cursive;
+}
+
+.parrafoSub {
+  color: rgba(255, 238, 5, 0.945);
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.secionB {
+  height: 100vh;
+  width: 100%;
+  background-color: #fa0707;
+}
+
+.precauciones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: black;
+  /* justify-content: space-around; */
+  -ms-flex-line-pack: center;
+      align-content: center;
+  overflow: auto;
+  border: 2px solid beige;
+}
+
+.montaña {
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  -ms-flex-preferred-size: 20px;
+      flex-basis: 20px;
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+}
+
+.glaciar {
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  -ms-flex-preferred-size: 120px;
+      flex-basis: 120px;
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+}
+
+.parrafoPre {
+  color: rgba(255, 238, 5, 0.945);
+  font-size: 26px;
+  font-family: cursive;
+}
+
+.destinoMon {
+  height: 100vh;
+  width: 100%;
+  background-image: url(/img/mountains-gd91451786_1280.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.destinoGla {
+  height: 100vh;
+  width: 100%;
+  background-image: url(/img/iceland-g1990a03d1_1280.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.subT {
+  font-size: 48px;
+  color: brown;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+footer {
+  height: 150px;
+  width: 100%;
+  background-color: #fd04fd;
+}
+
+.redes {
+  color: #f8f8f8;
+  font-size: 50px;
+  text-align: center;
+  word-spacing: 80px;
+}
+
+footer h3 {
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  font-family: cursive;
+}
+
+.subir {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 20px;
+  height: 40px;
+  width: 30px;
+  font-size: 37px;
+  line-height: 40px;
+  background-color: #1dfc00;
+}
+
+.logos {
+  color: rgba(253, 253, 253, 0.753);
+  font-size: 60px;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+
+.logos:hover {
+  color: #2600ff;
+  -webkit-transform: skewX(-10deg);
+  transform: skewX(-10deg);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.carousel-item img {
+  height: 700px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+h2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  background-color: #1f1101;
+}
+
+.box1Home, .box2Home {
+  height: 600px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #1f1101;
+}
+
+.box1Home img, .box2Home img {
+  width: 100%;
+  height: 450px;
+  border: 2px solid goldenrod;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.box2Home img {
+  height: 450px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.zapa, .muscu {
+  height: 350px;
+  background-color: #1f1101;
+}
+
+.zapa img, .muscu img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  margin-top: 20px;
+  border: 2px solid goldenrod;
+}
+
+.muscu img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  margin-top: 20px;
+  border: 2px solid goldenrod;
+}
+
+.videoSer {
+  height: 700px;
+}
+
+.videoSer iframe {
+  width: 100%;
+  height: 700px;
+}
+
+.Servi {
+  background-color: #1f1101;
+}
+
+.localServ {
+  height: 500px;
+  background-color: #1f1101;
+}
+
+.localServ img {
+  width: 100%;
+  height: 450px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  margin-top: 20px;
+  border: 2px solid goldenrod;
+}
+
+p {
+  color: white;
+  font-size: 35px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.Nos {
+  background-color: #1f1101;
+}
+
+span {
+  color: #ecd500;
+}
+
+.forC {
+  background-image: url(../img/notepad-g4b066d07d_1280.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 800px;
+  width: 100%;
+}
+
+.forC {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.forC label {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 15px;
+  color: #000;
+}
+
+.forC input {
+  width: 20%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.forC textarea {
+  width: 25%;
+}
+
+@media only screen and (min-width: 600px) {
+  .forC input {
+    width: 20%;
+  }
+  .forC textarea {
+    width: 25%;
+  }
+}
+/*# sourceMappingURL=estilos.css.map */
